@@ -1,2 +1,2 @@
 # mono-megalodon
-Heavy mono repo
+Tester workspace & monorepo packages for espack
