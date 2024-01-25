@@ -1,0 +1,54 @@
+{
+  "name": "pkg0",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "Rakesh <rake7h@gmail.com>",
+  "license": "ISC",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist",
+    "soil",
+    "earth"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 0",
+    "build_": "espack build"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "earth.ts",
+      "soil.ts"
+    ]
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./earth": {
+      "import": "./dist/esm/earth.js",
+      "require": "./dist/cjs/earth.js"
+    },
+    "./soil": {
+      "import": "./dist/esm/soil.js",
+      "require": "./dist/cjs/soil.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/declarations/*"
+      ]
+    }
+  },
+  "dependencies": {
+    "lib0": "workspace:^",
+    "module0": "workspace:^"
+  }
+}
