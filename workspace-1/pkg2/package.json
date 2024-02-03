@@ -2,6 +2,7 @@
   "name": "pkg2",
   "version": "0.1.0",
   "description": "",
+  "main": "dist/pkg2.cjs.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
@@ -17,12 +18,6 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 0",
     "build_": "espack build"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
-    }
   },
   "typesVersions": {
     "*": {

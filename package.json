@@ -11,6 +11,7 @@
     "pkg:init": "preconstruct init",
     "pkg:dev": "preconstruct dev",
     "pkg:build": "preconstruct build",
+    "pkg:fix": "preconstruct fix",
     "espack:build": "yarn workspaces foreach -vip run build_"
   },
   "workspaces": [

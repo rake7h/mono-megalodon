@@ -2,6 +2,7 @@
   "name": "lib0",
   "version": "0.1.0",
   "description": "",
+  "main": "dist/lib0.cjs.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
@@ -9,7 +10,8 @@
     "lib": "dist"
   },
   "files": [
-    "dist"
+    "dist",
+    "helper"
   ],
   "publishConfig": {
     "access": "public"
@@ -23,16 +25,6 @@
       "index.ts",
       "helper/index.ts"
     ]
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
-    },
-    "./helper-index": {
-      "import": "./dist/esm/helper-index.js",
-      "require": "./dist/cjs/helper-index.js"
-    }
   },
   "typesVersions": {
     "*": {

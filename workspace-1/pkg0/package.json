@@ -26,20 +26,6 @@
       "soil.ts"
     ]
   },
-  "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
-    },
-    "./earth": {
-      "import": "./dist/esm/earth.js",
-      "require": "./dist/cjs/earth.js"
-    },
-    "./soil": {
-      "import": "./dist/esm/soil.js",
-      "require": "./dist/cjs/soil.js"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
