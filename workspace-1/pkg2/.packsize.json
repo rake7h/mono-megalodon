@@ -1,0 +1,30 @@
+{
+  "workspace": "workspace-1",
+  "hash": "a4467640afbe358f3fb3bcaac2b3321de1fa5e06",
+  "artifacts": {
+    "size": "4.6 kB",
+    "files": {
+      "dist/pkg2.cjs.dev.js": {
+        "size": "1.6 kB"
+      },
+      "dist/pkg2.cjs.js": {
+        "size": "170 B"
+      },
+      "dist/pkg2.cjs.prod.js": {
+        "size": "1.6 kB"
+      },
+      "package.json": {
+        "size": "499 B"
+      },
+      "dist/pkg2.cjs.d.ts.map": {
+        "size": "126 B"
+      },
+      "dist/declarations/src/index.d.ts": {
+        "size": "593 B"
+      },
+      "dist/pkg2.cjs.d.ts": {
+        "size": "81 B"
+      }
+    }
+  }
+}

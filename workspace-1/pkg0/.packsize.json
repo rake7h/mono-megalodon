@@ -1,0 +1,54 @@
+{
+  "workspace": "workspace-1",
+  "hash": "d1ab3819b63fe6e19ff6fbca7574d8497cf225dd",
+  "artifacts": {
+    "size": "2.3 kB",
+    "files": {
+      "earth/dist/pkg0-earth.cjs.dev.js": {
+        "size": "269 B"
+      },
+      "earth/dist/pkg0-earth.cjs.js": {
+        "size": "182 B"
+      },
+      "earth/dist/pkg0-earth.cjs.prod.js": {
+        "size": "269 B"
+      },
+      "soil/dist/pkg0-soil.cjs.dev.js": {
+        "size": "98 B"
+      },
+      "soil/dist/pkg0-soil.cjs.js": {
+        "size": "180 B"
+      },
+      "soil/dist/pkg0-soil.cjs.prod.js": {
+        "size": "98 B"
+      },
+      "earth/package.json": {
+        "size": "39 B"
+      },
+      "package.json": {
+        "size": "661 B"
+      },
+      "soil/package.json": {
+        "size": "38 B"
+      },
+      "earth/dist/pkg0-earth.cjs.d.ts.map": {
+        "size": "141 B"
+      },
+      "soil/dist/pkg0-soil.cjs.d.ts.map": {
+        "size": "139 B"
+      },
+      "dist/declarations/src/earth.d.ts": {
+        "size": "11 B"
+      },
+      "earth/dist/pkg0-earth.cjs.d.ts": {
+        "size": "96 B"
+      },
+      "soil/dist/pkg0-soil.cjs.d.ts": {
+        "size": "94 B"
+      },
+      "dist/declarations/src/soil.d.ts": {
+        "size": "11 B"
+      }
+    }
+  }
+}
