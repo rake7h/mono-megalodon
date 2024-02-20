@@ -1,8 +1,8 @@
 {
-  "name": "lib1",
+  "name": "pkg1",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/lib1.cjs.js",
+  "main": "dist/pkg1.cjs.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
@@ -16,14 +16,6 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 0",
-    "build_": "espack build"
-  },
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/declarations/*"
-      ]
-    }
+    "test": "echo \"Error: run tests from root\" && exit 0"
   }
 }

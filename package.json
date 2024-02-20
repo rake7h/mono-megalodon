@@ -1,41 +1,24 @@
 {
   "name": "mono-megalodon",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/rake7h/mono-megalodon.git",
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.6.1",
   "scripts": {
     "espack:init": "espack init",
     "espack:dev": "espack dev",
-    "pkg:init": "preconstruct init",
-    "pkg:dev": "preconstruct dev",
-    "pkg:build": "preconstruct build",
-    "pkg:fix": "preconstruct fix",
-    "packsize": "packsize diff",
-    "packsize:init": "packsize init",
     "espack:build": "yarn workspaces foreach -vip run build_"
   },
   "workspaces": [
-    "workspace-1/*",
-    "workspace-2/*",
-    "workspace-3/*"
+    "packages/*",
+    "apps/*"
   ],
-  "preconstruct": {
-    "packages": [
-      "workspace-1/*",
-      "workspace-2/*",
-      "workspace-3/*"
-    ]
-  },
   "dependencies": {
-    "@bontiva/espack": "./esbpack.tgz",
-    "@preconstruct/cli": "^2.8.1",
     "@rake7h/ts-pkg": "^0.1.0",
-    "packsize": "./package-4.tgz",
     "typescript": "^5.1.6"
   },
-  "packageManager": "yarn@3.6.1",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.22.6",
     "@babel/preset-env": "^7.22.6",
