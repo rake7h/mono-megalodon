@@ -9,7 +9,8 @@
   "scripts": {
     "espack:init": "espack init",
     "espack:dev": "espack dev",
-    "espack:build": "yarn workspaces foreach -vip run build_"
+    "espack:build": "yarn workspaces foreach -vip run build_",
+    "dev:blog": "yarn workspace nextjs-blog run dev"
   },
   "workspaces": [
     "packages/*",
