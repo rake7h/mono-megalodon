@@ -5,7 +5,7 @@
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.1.0",
   "scripts": {
     "espack:init": "espack init",
     "espack:dev": "espack dev",

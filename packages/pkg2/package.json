@@ -1,5 +1,5 @@
 {
-  "name": "pkg2",
+  "name": "@demo/pkg2",
   "version": "0.1.0",
   "description": "",
   "main": "dist/pkg2.cjs.js",

@@ -1,5 +1,5 @@
 {
-  "name": "pkg0",
+  "name": "@demo/pkg0",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
@@ -13,6 +13,5 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 0"
-  },
-  "dependencies": {}
+  }
 }
