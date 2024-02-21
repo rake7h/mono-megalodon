@@ -1,8 +1,8 @@
 {
-  "name": "@demo/pkg1",
+  "name": "@demo/components",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/pkg1.cjs.js",
+  "main": "./src/index.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
@@ -17,5 +17,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
   }
 }

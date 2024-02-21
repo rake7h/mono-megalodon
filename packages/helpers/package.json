@@ -1,14 +1,11 @@
 {
-  "name": "@demo/pkg2",
+  "name": "@demo/helpers",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/pkg2.cjs.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
-  "directories": {
-    "lib": "dist"
-  },
+  "main": "./src/index.js",
   "files": [
     "dist"
   ],

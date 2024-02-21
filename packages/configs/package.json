@@ -1,10 +1,14 @@
 {
-  "name": "@demo/pkg0",
+  "name": "@demo/configs",
   "version": "0.1.0",
   "description": "",
+  "main": "src/index.js",
   "keywords": [],
   "author": "Rakesh <rake7h@gmail.com>",
   "license": "ISC",
+  "directories": {
+    "lib": "dist"
+  },
   "files": [
     "dist"
   ],

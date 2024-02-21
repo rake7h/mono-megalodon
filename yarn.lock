@@ -1377,21 +1377,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@demo/pkg0@npm:*, @demo/pkg0@workspace:packages/pkg0":
+"@demo/components@npm:*, @demo/components@workspace:packages/components":
   version: 0.0.0-use.local
-  resolution: "@demo/pkg0@workspace:packages/pkg0"
+  resolution: "@demo/components@workspace:packages/components"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
   languageName: unknown
   linkType: soft
 
-"@demo/pkg1@workspace:packages/pkg1":
+"@demo/configs@workspace:packages/configs":
   version: 0.0.0-use.local
-  resolution: "@demo/pkg1@workspace:packages/pkg1"
+  resolution: "@demo/configs@workspace:packages/configs"
   languageName: unknown
   linkType: soft
 
-"@demo/pkg2@workspace:packages/pkg2":
+"@demo/helpers@workspace:packages/helpers":
   version: 0.0.0-use.local
-  resolution: "@demo/pkg2@workspace:packages/pkg2"
+  resolution: "@demo/helpers@workspace:packages/helpers"
   languageName: unknown
   linkType: soft
 
@@ -1963,7 +1966,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-blog@workspace:apps/nextjs-blog"
   dependencies:
-    "@demo/pkg0": "npm:*"
+    "@demo/components": "npm:*"
     "@types/node": "npm:20.11.19"
     "@types/react": "npm:18.2.57"
     next: "npm:latest"
